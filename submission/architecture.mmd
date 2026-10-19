@@ -1,0 +1,14 @@
+flowchart TD
+  A["Synthetic EHR profile"] --> C["Data alignment and validation"]
+  B["Timestamped synthetic CGM stream"] --> C
+  C --> D["Past-only rolling features"]
+  D --> E["Random Forest model training"]
+  E --> F["Patient-level evaluation"]
+  D --> G["Current virtual patient state"]
+  G --> H["FastAPI prediction service"]
+  E --> H
+  H --> I["Streamlit clinician-facing dashboard"]
+  I --> J["Patient profile and glucose timeline"]
+  I --> K["Two-hour event probability and model context"]
+  I --> L["Historical replay"]
+  M["Synthetic data only · not clinically validated"] --- I

@@ -215,8 +215,19 @@ GlycoTwin AI is an exploratory engineering prototype with important limitations:
 - **No treatment recommendations:** The prototype does not support medication dosing, diagnosis, treatment selection, or emergency monitoring.
 
 Before any real-world healthcare use, the approach would require appropriately governed clinical data, clinical and ethical review, external validation, calibration analysis, subgroup evaluation, privacy safeguards, and prospective assessment.
+11. Team
+Team member          Role
+---
+Pavithra N           To be confirmed by the team
+Methra Renganathan   To be confirmed by the team
+Confirm each member's actual responsibilities with the team before final
+submission; do not publish guessed roles.
 
-## 11. Future Directions
+12. Institution
+Amrita Vishwa Vidyapeetham, Chennai Campus.
+
+
+## 13. Future Directions
 
 Potential research extensions include:
 
@@ -227,7 +238,7 @@ Potential research extensions include:
 - Exploring additional contextual features when reliable data and appropriate permissions are available.
 - Conducting clinician-led validation before considering any clinical application.
 
-## 12. License and Intended Use
+## 14. License and Intended Use
 
 This project is provided under the license included in the repository. See [`LICENSE`](LICENSE) for the applicable terms.
 
